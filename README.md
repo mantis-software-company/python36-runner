@@ -1,4 +1,4 @@
-# python66-runner
+# python36-runner
 
 Run custom python library in the container
 
