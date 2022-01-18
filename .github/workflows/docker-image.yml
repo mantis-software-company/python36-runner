@@ -34,7 +34,7 @@ jobs:
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
         with:
           images: |
-            mantissoftware/python38-runner
+            mantissoftware/python36-runner
       -
         name: Build and push
         id: docker_build
@@ -52,4 +52,4 @@ jobs:
         with:
           username: mantissoftware
           password: ${{ secrets.DOCKERHUB_PASS }}
-          repository: mantissoftware/python38-runner
+          repository: mantissoftware/python36-runner
